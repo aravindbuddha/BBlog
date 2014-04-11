@@ -2,9 +2,19 @@
   "name": "BBlog",
   "version": "0.0.1",
   "dependencies": {
-    "jquery": "1.10.2",
-    "backbone-amd": null,
-    "underscore-amd": null,
-    "requirejs": null
-  }
+    "kendo-ui": "~2014.1.318"
+  },
+  "homepage": "https://github.com/aravindbuddha/BBlog",
+  "authors": [
+    "aravindbuddha <buddhaaravind@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ]
 }
