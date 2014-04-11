@@ -1,0 +1,64 @@
+@import "compass";
+
+@import "_shared/_reset";
+@import "_shared/_form";
+
+
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300");
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #34495e;
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  line-height: 1.231;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.clean_wrap {
+  width: 500px;
+  margin: 0 auto;
+  @include box-shadow(0 1px 5px rgba(0, 0, 0, 0.65));
+  @include border-radius(5px 5px);
+  @extend .shake;
+}
+
+.form_header {
+  background-color: #2ECC71;
+  border-bottom: 5px solid #27AE60;
+  overflow: hidden;
+  position: relative;
+  padding: 25px 30px;
+  // @include border-radius(5px 5px 0 0);
+  h4 {
+    text-align: left;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+  }
+}
+
+.form_body {
+  padding: 40px 30px;
+  padding-bottom: 20px;
+  background: #fff;
+  .field {
+    margin-bottom: 22px;
+  }
+}
+
+.form_footer {
+  background: #f3f3f3;
+  padding: 20px 25px;
+}
