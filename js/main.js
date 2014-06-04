@@ -1,14 +1,12 @@
-window.BBlog = window.BBlog || {};
-
-// Filename: init.js
 require.config({
-  //baseUrl: 'js/',
   paths: {
-    jquery: 'lib/jquery/jquery',
-    underscore: 'lib/underscore-amd/underscore',
-    backbone: 'lib/backbone-amd/backbone'
+    "jquery": "vender/jquery/dist/jquery",
+    "underscore": "vender/underscore-amd/underscore",
+    "backbone": "vender/backbone-amd/backbone",
+    "text": "vender/requirejs-text/text"
   }
 });
-require(["app"], function(App) {
-  App.init();
+
+require(['view/post/list'], function (AppView) {
+  new AppView();
 });
