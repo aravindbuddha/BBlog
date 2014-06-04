@@ -3,5 +3,5 @@
 #################
 
 *.pydevproject
-js/vender/
+js/vender/*
 
