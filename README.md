@@ -1,4 +1,0 @@
-BBlog
-=====
-
-Blog app
